@@ -53,8 +53,8 @@ public class Main {
             }
             case 2 -> k = new Sparkonto(inhaber, blz, knr);
             case 3 -> {
-                System.out.print("Gebühr: ");
-                double g = scanner.nextDouble();
+                System.out.print("Kapital (zB: 10000€): ");
+                double g= scanner.nextDouble();
                 k = new Kreditkonto(inhaber, blz, knr, g);
             }
             default -> {

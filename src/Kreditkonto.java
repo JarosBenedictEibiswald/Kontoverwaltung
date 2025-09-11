@@ -1,14 +1,13 @@
 class Kreditkonto extends Konto {
-    private double gebuehr;
+    private double kapital;
 
-    public Kreditkonto(String kontoinhaber, String bankleitzahl, String kontonummer, double gebuehr) {
+    public Kreditkonto(String kontoinhaber, String bankleitzahl, String kontonummer, double kapital) {
         super(kontoinhaber, bankleitzahl, kontonummer, "Kreditkonto");
-        this.gebuehr = gebuehr;
+        this.kapital = kapital;
     }
 
     @Override
     public void abheben(double betrag) {
-        kontostand -= (betrag + gebuehr);
-        System.out.println(betrag + " € abgehoben. Gebühren: " + gebuehr + " €");
+        System.out.println("Abheben ist auf einem Kreditkonto nicht erlaubt.");
     }
 }
