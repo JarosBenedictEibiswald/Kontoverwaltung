@@ -9,4 +9,4 @@
 ---
 
 ### Funktionen
-Dieses Projekt emuliert die verschiedenen Eigenschaften von Konto-Arten.
+Dieses Projekt emuliert die verschiedenen Eigenschaften von Bank-Konto-Arten.
