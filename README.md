@@ -9,5 +9,4 @@
 ---
 
 ## Funktionen
-
 Dieses Projekt emuliert die verschiedenen Eigenschaften von Konto-Arten.
