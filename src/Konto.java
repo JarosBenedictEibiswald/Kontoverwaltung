@@ -37,4 +37,12 @@ abstract class Konto {
     public String getKontonummer() {
         return kontonummer;
     }
+
+    public String getInhaber() {
+        return kontoinhaber;
+    }
+
+    public double getKontostand() {
+        return kontostand;
+    }
 }
