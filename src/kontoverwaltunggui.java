@@ -1,3 +1,4 @@
+//new
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -13,6 +14,11 @@ public class kontoverwaltunggui {
     private JButton kontoanlegenBTN;
     private JTextArea contractsHistory;
     private JComboBox kontoartDropdown;
+    private JComboBox kontoDropdown;
+    private JButton abhebenButton;
+    private JButton einzahlenButton;
+    private JTextField amountInOutfield;
+    private JButton kontoAufloesenButton;
 
     private static List<Konto> konten = new ArrayList<>();
 

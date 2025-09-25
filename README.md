@@ -15,4 +15,5 @@ Dieses Projekt emuliert die verschiedenen Eigenschaften von Bank-Konto-Arten.
 ![Alt text](/img/ausfuehrung.png)
 
 ### GUI
-Eine einfache GUI zum erstellen von Konten exesitiert bereits.
+Eine einfache GUI zum erstellen von Konten exesitiert bereits. 
+Für die GUI die main() in kontoverwaltunggui.java benutzen.
